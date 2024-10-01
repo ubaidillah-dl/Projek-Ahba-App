@@ -45,7 +45,7 @@ class Pages extends BaseController
         return view('pages/rapor', $data);
     }
 
-    
+
     public function pelanggaran()
     {
         $data = [
@@ -54,7 +54,7 @@ class Pages extends BaseController
         return view('pages/pelanggaran', $data);
     }
 
-        
+
     public function perijinan()
     {
         $data = [
@@ -63,7 +63,7 @@ class Pages extends BaseController
         return view('pages/perijinan', $data);
     }
 
-    
+
     public function absensi()
     {
         $data = [
@@ -72,7 +72,7 @@ class Pages extends BaseController
         return view('pages/absensi', $data);
     }
 
-    
+
     public function formal()
     {
         $data = [
@@ -81,7 +81,7 @@ class Pages extends BaseController
         return view('pages/formal', $data);
     }
 
-     
+
     public function madrasah()
     {
         $data = [
@@ -90,7 +90,7 @@ class Pages extends BaseController
         return view('pages/madrasah', $data);
     }
 
-     
+
     public function kesehatan()
     {
         $data = [
