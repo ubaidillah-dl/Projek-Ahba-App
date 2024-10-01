@@ -5,7 +5,7 @@
     <section class="m-auto p-5">
         <div class="mb-3 d-flex">
             <img class="me-3" src="/assets/logo-alhikam.png" alt="Logo Al Hikam" srcset="" />
-            <h4 class="m-0 p-0 d-flex align-items-end ">AHBA <br />Pesantren private</h4>
+            <h4 class="m-0 p-0 d-flex align-items-end ">AHBA <br />Pesantren</h4>
         </div>
         <form>
             <div class="mb-2">
