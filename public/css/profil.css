@@ -1,0 +1,63 @@
+:root {
+  --primary: #1e2088;
+  --primaylight: #3839a8;
+  --secondary: #8a8aff;
+  --accent: #ffb74d;
+
+  --accentdark: #101010;
+  --accentdarktrans: #10101086;
+
+  --font: #e0e0e0;
+  --fonttrans: #e0e0e086;
+  --fonttrans2: #e0e0e02d;
+
+  --bg: #1b1b1b;
+  --bgtrans: #1b1b1b86;
+}
+
+/* content top */
+.profil .top {
+  height: 30vh;
+}
+
+.profil .top .col-4 img {
+  height: 10em;
+}
+
+.profil .top .col-8 {
+  flex-direction: column;
+}
+
+.profil .top .col-8 button {
+  background-color: var(--fonttrans);
+  border: none;
+  font-weight: 500;
+}
+
+.profil .top .col-8 button:hover {
+  background-color: var(--fonttrans2);
+}
+
+.profil .top .col-8 button:active {
+  background-color: var(--fonttrans);
+  color: var(--font);
+}
+
+.profil .top .col-8 h6 {
+  color: var(--accent);
+}
+
+/* content bottom */
+.profil .bottom {
+  height: 70vh;
+}
+
+.profil .bottom .tcontainer {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.profil .bottom .tcontainer table tbody tr th {
+  width: 30%;
+  padding-left: 1.5em;
+}

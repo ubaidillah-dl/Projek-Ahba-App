@@ -1,0 +1,81 @@
+:root {
+  --primary: #1e2088;
+  --primarytrans: #1e208886;
+  --primaylight: #3839a8;
+  --secondary: #8a8aff;
+  --accent: #ffb74d;
+
+  --accentdark: #101010;
+  --accentdarktrans: #10101086;
+
+  --font: #e0e0e0;
+  --fonttrans: #e0e0e086;
+  --fonttrans2: #e0e0e02d;
+
+  --bg: #1b1b1b;
+  --bgtrans: #1b1b1b86;
+}
+
+body {
+  color: var(--font);
+  background-color: var(--accentdark);
+  font-family: "Exo 2", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.masuk {
+  height: 100vh;
+}
+
+.masuk img {
+  height: 90px;
+}
+
+.masuk h4 {
+  height: 90px;
+}
+
+.masuk input.input {
+  background-color: var(--fonttrans2);
+  color: var(--font);
+  border: 1px solid var(--accentdark);
+  width: 16em;
+}
+
+.masuk input.input:hover {
+  background-color: var(--accentdarktrans);
+  border: 1px solid var(--fonttrans2);
+}
+
+.masuk input.input:active {
+  border-color: var(--primary);
+  border: 1px solid var(--fonttrans2);
+}
+
+.masuk input.input:focus {
+  background-color: var(--accentdarktrans);
+  box-shadow: none;
+  border-color: var(--accent);
+}
+
+.masuk input::placeholder {
+  opacity: 0.5;
+  color: var(--font);
+}
+
+.masuk button {
+  width: 90px;
+  background-color: var(--primary);
+  border-color: var(--accentdark);
+  box-shadow: none;
+  border: none;
+}
+
+.masuk button:hover {
+  background-color: var(--primarytrans);
+}
+
+.masuk button:active:focus {
+  background-color: var(--primary);
+}

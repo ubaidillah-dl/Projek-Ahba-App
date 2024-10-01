@@ -1,0 +1,55 @@
+:root {
+  --primary: #1e2088;
+  --primaylight: #3839a8;
+  --secondary: #8a8aff;
+  --accent: #ffb74d;
+  --accenttrans: #ffb74d86;
+
+  --accentdark: #101010;
+  --accentdarktrans: #10101086;
+
+  --font: #e0e0e0;
+  --fonttrans: #e0e0e086;
+  --fonttrans2: #e0e0e02d;
+
+  --bg: #1b1b1b;
+  --bgtrans: #1b1b1b86;
+}
+
+.billing {
+  height: 100vh;
+  overflow: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.billing::-webkit-scrollbar {
+  display: none;
+}
+
+.billing .tcontainer {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.billing .tcontainer table tbody tr th {
+  width: 30%;
+  padding-left: 1.5em;
+}
+
+.billing .tcontainer table tbody tr td button {
+  background-color: var(--accent);
+  border: none;
+}
+
+.billing .tcontainer table tbody tr td button:hover {
+  background-color: var(--accenttrans);
+}
+
+.billing .tcontainer table tbody tr td button:active {
+  background-color: var(--accent);
+}
+
+.billing .tcontainer table tbody tr td .popup {
+  /* background-color: var(--bg); */
+}
